@@ -27,13 +27,26 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+map() allocates memory and stores return values. forEach() throws away return values and always returns undefined . forEach() will allow a callback function to mutate the current array
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher-order function is a function that takes another function(s) as an argument(s) and/or returns a function to its callers. A callback function is a function that is passed to another function with the expectation that the other function will call it.
 
 3. What is closure?
 
+A closure is the combination of a function bundled together with references to its surrounding state 
+
 4. Describe the four rules of the 'this' keyword.
 
+Is the function called by new?
+Is the function called by call(), apply(), or bind()?
+Is the function called as a method, ie: obj.func()?
+Is the function called in the global scope?
+
 5. Why do we need super() in an extended class?
+
+It is used to call the constructor of the parent class and to access the parent's properties and methods.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
